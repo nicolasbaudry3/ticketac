@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+  </head>
+  <body>
+    
+ <!--  --- navbar ---  -->
+ <%- include('navbar'); %>
+
+  <!-- SIGN IN AREA -->
+      <div class="container">
+      
+        <div class="row">
+          
+            
+                <div class="col-12 col-sm-6 text-center">
+
+                  <div class="formArea">
+
+                    <h4 class="titleForm">Sign In</h4>
+
+                    <form action="/sign-in" method="POST">
+                      <div class="form-group">
+                        <input name="emailFromFront" type="email" class="form-control" aria-describedby="emailHelp" placeholder="Email">
+                      </div>
+                      <div class="form-group">
+                        <input name="passwordFromFront" type="password" class="form-control" placeholder="Password">
+                      </div>
+
+                      <button type="submit" class="btn btn-danger">Confirm</button>
+                    </form>
+
+                  </div>
+
+                </div>
+
+            <!-- SIGN UP AREA -->
+            <div class="col-12 col-sm-6 text-center">
+
+              <div class="formArea">
+                <h4 class="titleForm">Sign Up</h4>
+
+                <form action="/sign-up" method="POST">
+                  <div class="form-group">
+                    <input name="nameFromFront" type="text" class="form-control" placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                    <input name="firstNameFromFront" type="text" class="form-control" placeholder="FirstName">
+                  </div>
+                  <div class="form-group">
+                    <input name="emailFromFront" type="email" class="form-control" aria-describedby="emailHelp" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <input name="passwordFromFront" type="password" class="form-control"  placeholder="Password">
+                  </div>
+
+                  <button type="submit" class="btn btn-danger">Confirm</button>
+                </form>
+              </div>
+
+            </div>
+          
+        </div>
+
+      </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+
+</html>

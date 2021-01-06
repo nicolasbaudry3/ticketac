@@ -1,0 +1,139 @@
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  min-height: 100%;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: linear-gradient(0deg,#194758, rgb(123, 147, 173));
+  
+}
+
+.container {
+  display:flex;
+  height: 100%;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.titleForm {
+  display:flex;
+  color :rgb(245, 245, 245);
+}
+
+/*-- NavBar ---*/
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(245, 245, 245);
+ 
+}
+
+.navbarelement {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#train {
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+}
+
+h4 {
+  margin-left: 4px;
+  margin-right: 4px;
+  margin: 15px;
+  font-size: 15px;
+  
+}
+#connexion {
+  color: red
+}
+
+
+/* --- LandMark --- */
+
+.landmark {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+
+  
+}
+
+#landmark {
+  width: 250px;
+  
+}
+
+/*-- Footer ---*/
+.footer {
+  position: absolute;
+  bottom: 0;
+}
+
+
+/* --- homepage --- */
+
+.homepage {
+  width: 100%;
+  margin-left: 100px;
+}
+
+.text-center {
+  width: 100%;
+}
+
+.GoHome {
+  margin-bottom: 16px;
+  color:white !important;
+}
+
+/* --- oops --- */
+
+.oops{
+  margin: 50px;
+}
+
+
+.modal{
+  display: block;
+  position: relative;
+}
+
+/* -- travels page -- */
+
+.rowtravel {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 400px;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* -- oops train */
+
+.oopstrain {
+  display: flex;
+  justify-content: center;
+  margin-left: 350px;
+}
+
+.Home {
+  margin-left: 125px;
+}
